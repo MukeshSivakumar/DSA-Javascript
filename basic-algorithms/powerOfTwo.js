@@ -8,8 +8,6 @@
 // isPowerOf2(10) - false
 // isPowerOf2(32) - true - 2^5
 
-
-
 const isPowerOf2 = (n) => {
 
     while(n != 1) {
