@@ -21,3 +21,4 @@ let isPrime = (n) => {
 
 console.log(isPrime(53));
 
+// Big O notation - O(n)

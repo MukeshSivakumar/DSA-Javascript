@@ -22,7 +22,6 @@ const isPowerOf2 = (n) => {
 
 };
 
-
 console.log(isPowerOf2(66));
 
 // Big O notation - O(logn)

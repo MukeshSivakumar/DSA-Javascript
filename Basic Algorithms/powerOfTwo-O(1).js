@@ -10,3 +10,5 @@ const powerOfTwo = (n) => {
 }
 
 console.log(powerOfTwo(1021))
+
+// Big O notation - O(1) : Constant Time Complexity

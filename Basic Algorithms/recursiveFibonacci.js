@@ -16,3 +16,5 @@ const fibonacci = (n) => {
 }
 
 console.log(fibonacci(11));
+
+// Big O notation - O(2^n) Upper bound -  but actual calls are very lesser than the upper bound

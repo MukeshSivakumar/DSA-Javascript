@@ -15,3 +15,6 @@ let recurFactorial = (n) => {
 }
 
 console.log(recurFactorial(5));
+
+
+// Big O notation - O(n)
