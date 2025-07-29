@@ -25,3 +25,5 @@ let recursiveBinarySearch = (arr, target, startIndex, endIndex) => {
 
 // console.log(recursiveBinarySearch([-10,0,2,5,19,43], -19, 0, 5));
 console.log(recursiveBinarySearch(0, -19, 0, 0));
+
+// Big O notation - O(logn)

@@ -24,3 +24,7 @@ let quickSort = (arr) => {
 }
 
 console.log(quickSort([16,-5,8,2,17,10]));
+
+// Worst Case Time Complexity: O(n^2)
+
+// Average and Best Case Time Complexity: O(n log n)

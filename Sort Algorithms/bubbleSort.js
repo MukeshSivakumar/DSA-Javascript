@@ -3,17 +3,17 @@
 
 // My solution
 
-// let bubbleSort = (arr) => {
-//     for(let i = arr.length -1 ; i > 0 ; i--){
-//         for(let j = 0; j < i ; j++){
-//             if(arr[j] > arr[j+1]){
-//                 [arr[j],arr[j+1]] = [arr[j+1],arr[j]]; 
-//             }
-//         }
-//     }
+let bubbleSort = (arr) => {
+    for(let i = arr.length -1 ; i > 0 ; i--){
+        for(let j = 0; j < i ; j++){
+            if(arr[j] > arr[j+1]){
+                [arr[j],arr[j+1]] = [arr[j+1],arr[j]]; 
+            }
+        }
+    }
 
-//     return arr;
-// }
+    return arr;
+}
 
 
 
@@ -40,24 +40,7 @@
 
 
 
-// let numArr = [92, 45, 88, 1, 14, 2]
-// console.log(bubbleSort(numArr));
+let numArr = [92, 45, 88, 1, 14, 2];
+console.log(bubbleSort(numArr));
 
-
-// testing object set key-value pairs
-
-let userObject = { 
-    name : "Raju",
-    uid : 12345,
-    age : 35
-}
-
-console.table(userObject);
-
-
-// userObject.set("designation", "actor");
-
-userObject["deignation"] = "Actor";
-
-
-console.table(userObject);
+// Big O notation - O(n^2)

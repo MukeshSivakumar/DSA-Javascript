@@ -34,3 +34,5 @@ let insertionSort = (arr) => {
 }
 
 console.log(insertionSort([0,9,-2,-1,7]));
+
+// Big O notation - O(n^2)

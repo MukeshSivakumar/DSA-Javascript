@@ -33,3 +33,5 @@ let binarySearch = (arr, target) => {
 
 
 console.log(binarySearch([-91,2,4,9,10,89],91));
+
+// Big O notation - O(logn)
